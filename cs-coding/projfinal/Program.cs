@@ -1,5 +1,11 @@
-﻿public class JewelCollector {
-
+﻿/// <summary>
+/// classe que contém a função Main()
+/// </summary>
+public class JewelCollector {
+    /// <summary>
+    /// método Main(), que é o responsável por rodar o jogo como um todo.
+    /// é aqui onde a progressão de nível e avaliação de vitória/derrota acontecem.
+    /// </summary>
     public static void Main() {
         int nivel = 1;
         int dimensão = 10;
